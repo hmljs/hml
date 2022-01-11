@@ -1,6 +1,7 @@
 {
     "name": "@hmljs/hml",
     "version": "0.0.1-alpha.1",
+    "description": "One-stop web development framework",
     "dependencies": {
         "acorn": "latest",
         "acorn-walk": "latest",
