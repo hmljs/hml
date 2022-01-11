@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "strictPropertyInitialization": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "checkJs": true,
+        "allowJs": true,
+        "lib": [
+            "ES5",
+            "DOM"
+        ]
+    },
+    "include": [
+        "src"
+    ],
+    "files": [
+        "index.d.ts"
+    ]
+}

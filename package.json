@@ -1,0 +1,28 @@
+{
+    "name": "@hmljs/hml",
+    "version": "0.0.1-alpha.1",
+    "dependencies": {
+        "acorn": "latest",
+        "acorn-walk": "latest",
+        "typescript": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@types/estree": "latest",
+        "eslint-plugin-es": "latest",
+        "eslint": "latest",
+        "rollup": "latest",
+        "terser": "latest"
+    },
+    "repository": {
+        "url": "https://github.com/hmljs/hml.git"
+    },
+    "author": {
+        "name": "WU HU"
+    },
+    "license": "MIT",
+    "scripts": {
+        "rollup": "rollup -i src/index.js -o index.js --validate -m -f iife --no-freeze",
+        "terser": "terser index.js -o index.min.js -c --safari10 -m -f ascii_only --ecma 5"
+    }
+}
