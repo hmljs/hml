@@ -1,0 +1,38 @@
+{
+    "env": {
+        "commonjs": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:es/no-2018",
+        "plugin:es/no-2017",
+        "plugin:es/no-2016",
+        "plugin:es/no-2015"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+    },
+    "plugins": [
+        "es"
+    ],
+    "rules": {
+        "es/no-symbol": "off",
+        "es/no-modules": "off",
+        "es/no-array-from": "off",
+        "es/no-typed-arrays": "off",
+        "es/no-object-setprototypeof": "off",
+        "es/no-object-getownpropertydescriptors": "off",
+        "no-shadow-restricted-names": "off",
+        "no-constant-condition": "off",
+        "no-cond-assign": "off",
+        "no-fallthrough": "off",
+        "no-redeclare": "off",
+        "quotes": [
+            2,
+            "double"
+        ]
+    }
+}
