@@ -11,7 +11,7 @@ declare interface Reflect {
     single<T>(argc: Hml.FuncClass<[], T>, value?: any): T;
     construct<T extends object>(argc: T, value: any): T;
     isConstruct(argc: object): boolean;
-    take<T>(argc: any): T;
+    take<T>(argc: object): T;
 }
 
 export const Reflect: Reflect;

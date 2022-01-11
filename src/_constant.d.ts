@@ -116,8 +116,9 @@ export const escape: typeof globalThis.escape;
 
 export const fs: typeof import("fs");
 export const path: typeof import("path");
-export const http: typeof import("http");
 export const zlib: typeof import("zlib");
+export const http: typeof import("http");
+export const https: typeof import("https");
 export const crypto: typeof import("crypto");
 export const stream: typeof import("stream");
 export const acorn_core: typeof import("acorn");
